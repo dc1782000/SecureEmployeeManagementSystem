@@ -24,6 +24,7 @@
       <change afterPath="$PROJECT_DIR$/src/SecureEmployeeManagementSystem.API/SecureEmployeeManagementSystem.http" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/SecureEmployeeManagementSystem.API/appsettings.Development.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/SecureEmployeeManagementSystem.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SecureEmployeeManagementSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SecureEmployeeManagementSystem/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/SecureEmployeeManagementSystem.API" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Dinesh-Cetpa"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dc1782000/SecureEmployeeManagementSystem.git",
+    "accountId": "4d11d495-d15d-46ee-bfd2-6b5a0a6af50d"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d7e2ce30531b7a2d56142411c5e51c3d516aafcb44e7628167b959660a65c/ServiceProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/SecureEmployeeManagementSystem.API/Controllers/EmployeeController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -280,7 +293,7 @@
       <option name="presentableId" value="Default" />
       <updated>1780936780712</updated>
       <workItem from="1780936782525" duration="6987000" />
-      <workItem from="1780954905397" duration="28369000" />
+      <workItem from="1780954905397" duration="30188000" />
     </task>
     <servers />
   </component>
