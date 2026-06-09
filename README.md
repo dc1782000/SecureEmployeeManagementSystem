@@ -1,6 +1,28 @@
-    git clone <YOUR_GITHUB_REPOSITORY_LINK>
+ # 🏢 Project Setup & Architecture Guide
+
+This is a monolithic repository containing both the Frontend application and the Backend API designed using **Clean Architecture** principles.
+
+---
+
+## 📁 Repository Folder Structure
+
+*   **frontend/** ➡️ Contains the complete Frontend user interface application.
+*   **src/** ➡️ Contains the Backend solution divided into separate Class Libraries:
+    *   **Domain/** (Class Library) ➡️ Core entity models, enterprise business logic, and exceptions (No external dependencies).
+    *   **Application/** (Class Library) ➡️ Application business rules, DTOs, CQRS handlers, and interface definitions.
+    *   **Infrastructure/** (Class Library) ➡️ Data access layers, Entity Framework DbContext, migrations, and third-party integrations.
+    *   **SecureEmployeeManagementSystem.API/** (Web API) ➡️ The entry point of the backend app handling HTTP requests, controllers, and dependency injections.
+
+---
+
+## 🚀 Quick Setup Instructions
+
+Execute the following steps in sequence to get the complete system running locally:
+
+### 📌 Step 1: Clone & Navigate
+*   Open your terminal window and run:
+*   git clone <YOUR_GITHUB_REPOSITORY_LINK>
     cd SecureEmployeeManagementSystem
-    ```
 
 ### 📌 Step 2: Database Initialization
 *   Create a new, blank database in your local SQL Server instance named: **`SecureEmployeeManagementDb`**.
