@@ -24,7 +24,6 @@
       <change afterPath="$PROJECT_DIR$/src/SecureEmployeeManagementSystem.API/SecureEmployeeManagementSystem.http" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/SecureEmployeeManagementSystem.API/appsettings.Development.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/SecureEmployeeManagementSystem.API/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SecureEmployeeManagementSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SecureEmployeeManagementSystem/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -293,7 +292,7 @@
       <option name="presentableId" value="Default" />
       <updated>1780936780712</updated>
       <workItem from="1780936782525" duration="6987000" />
-      <workItem from="1780954905397" duration="30188000" />
+      <workItem from="1780954905397" duration="30518000" />
     </task>
     <servers />
   </component>
