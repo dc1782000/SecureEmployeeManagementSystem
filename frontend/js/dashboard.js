@@ -2,7 +2,7 @@ async function loadDashboard() {
 
     const token = checkAuth();
 
-    const res = await fetch("http://localhost:5256/api/employee/dashboard", {
+    const res = await fetch("https://localhost:5256/api/employee/dashboard", {
         headers: {
             "Authorization": "Bearer " + token
         }

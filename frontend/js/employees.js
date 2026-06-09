@@ -24,10 +24,10 @@ async function loadEmployees() {
     const search = document.getElementById("search").value.toLowerCase();
     const dept = document.getElementById("department").value;
 
-    let url = "http://localhost:5256/api/employee";
+    let url = "https://localhost:5256/api/employee";
 
     if (search || dept) {
-        url = `http://localhost:5256/api/employee/search?keyword=${encodeURIComponent(search)}&department=${encodeURIComponent(dept)}`;
+        url = `https://localhost:5256/api/employee/search?keyword=${encodeURIComponent(search)}&department=${encodeURIComponent(dept)}`;
     }
 
     const res = await fetch(url, {
@@ -96,7 +96,7 @@ async function addEmployee() {
 
     if (!validate(employee)) return;
 
-    const res = await fetch("http://localhost:5256/api/employee", {
+    const res = await fetch("https://localhost:5256/api/employee", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -124,7 +124,7 @@ async function updateEmployee(id) {
 
     if (!validate(employee)) return;
 
-    const res = await fetch(`http://localhost:5256/api/employee/${id}`, {
+    const res = await fetch(`https://localhost:5256/api/employee/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",
@@ -150,7 +150,7 @@ async function deleteEmployee(id) {
 
     if (!confirm("Delete this employee?")) return;
 
-    const res = await fetch(`http://localhost:5256/api/employee/${id}`, {
+    const res = await fetch(`https://localhost:5256/api/employee/${id}`, {
         method: "DELETE",
         headers: {
             "Authorization": "Bearer " + token
@@ -170,7 +170,7 @@ async function editEmployee(id) {
 
     const token = localStorage.getItem("token");
 
-    const res = await fetch(`http://localhost:5256/api/employee/${id}`, {
+    const res = await fetch(`https://localhost:5256/api/employee/${id}`, {
         headers: {
             "Authorization": "Bearer " + token
         }

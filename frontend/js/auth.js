@@ -47,7 +47,7 @@ async function login() {
         btn.disabled = true;
         btn.innerText = "Logging in... ⏳";
 
-        const res = await fetch("http://localhost:5256/api/auth/login", {
+        const res = await fetch("https://localhost:5256/api/auth/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
