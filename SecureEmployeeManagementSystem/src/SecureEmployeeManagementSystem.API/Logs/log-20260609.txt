@@ -1673,3 +1673,314 @@ WHERE [e].[IsActive] = CAST(0 AS bit)
 2026-06-09 11:31:03.311 +05:30 [INF] Executed action SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API) in 30.4527ms
 2026-06-09 11:31:03.311 +05:30 [INF] Executed endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API)'
 2026-06-09 11:31:03.311 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5256/api/employee/dashboard - 200 null application/json; charset=utf-8 36.7674ms
+2026-06-09 13:57:13.429 +05:30 [INF] Swagger enabled
+2026-06-09 13:57:13.510 +05:30 [INF] User profile is available. Using '/Users/dcsharma/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-06-09 13:57:13.560 +05:30 [INF] Now listening on: http://localhost:5256
+2026-06-09 13:57:13.560 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-09 13:57:13.560 +05:30 [INF] Hosting environment: Development
+2026-06-09 13:57:13.560 +05:30 [INF] Content root path: /Users/dcsharma/RiderProjects/SecureEmployeeManagementSystem/src/SecureEmployeeManagementSystem.API
+2026-06-09 13:57:42.141 +05:30 [INF] Application is shutting down...
+2026-06-09 13:57:45.253 +05:30 [INF] Swagger enabled
+2026-06-09 13:57:45.340 +05:30 [INF] User profile is available. Using '/Users/dcsharma/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-06-09 13:57:45.644 +05:30 [INF] Now listening on: https://localhost:5256
+2026-06-09 13:57:45.644 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-09 13:57:45.644 +05:30 [INF] Hosting environment: Development
+2026-06-09 13:57:45.644 +05:30 [INF] Content root path: /Users/dcsharma/RiderProjects/SecureEmployeeManagementSystem/src/SecureEmployeeManagementSystem.API
+2026-06-09 14:07:18.393 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/ - null null
+2026-06-09 14:07:18.598 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/ - 404 0 null 218.3317ms
+2026-06-09 14:07:18.614 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5256/, Response status code: 404
+2026-06-09 14:07:25.449 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/swagger - null null
+2026-06-09 14:07:25.456 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/swagger - 301 0 null 9.5291ms
+2026-06-09 14:07:25.464 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/swagger/index.html - null null
+2026-06-09 14:07:25.539 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/swagger/index.html - 200 null text/html;charset=utf-8 74.8148ms
+2026-06-09 14:07:25.564 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/swagger/index.css - null null
+2026-06-09 14:07:25.564 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/swagger/swagger-ui.css - null null
+2026-06-09 14:07:25.564 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-09 14:07:25.565 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/swagger/index.js - null null
+2026-06-09 14:07:25.565 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/swagger/swagger-ui-bundle.js - null null
+2026-06-09 14:07:25.566 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/swagger/index.js - 200 null application/javascript;charset=utf-8 1.4446ms
+2026-06-09 14:07:25.582 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/swagger/index.css - 200 152 text/css 18.476ms
+2026-06-09 14:07:25.592 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/swagger/swagger-ui.css - 200 26499 text/css 28.0759ms
+2026-06-09 14:07:25.594 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/swagger/swagger-ui-standalone-preset.js - 200 76613 text/javascript 29.1403ms
+2026-06-09 14:07:25.600 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/swagger/swagger-ui-bundle.js - 200 418599 text/javascript 34.8212ms
+2026-06-09 14:07:26.020 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/swagger/v1/swagger.json - null null
+2026-06-09 14:07:26.022 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/swagger/favicon-32x32.png - null null
+2026-06-09 14:07:26.027 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/swagger/favicon-32x32.png - 200 628 image/png 5.4368ms
+2026-06-09 14:07:26.169 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 149.1875ms
+2026-06-09 14:08:35.211 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/swagger/index.html - null null
+2026-06-09 14:08:35.219 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/swagger/index.html - 304 null null 9.8629ms
+2026-06-09 14:08:35.298 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/swagger/swagger-ui.css - null null
+2026-06-09 14:08:35.300 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-09 14:08:35.300 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/swagger/swagger-ui-bundle.js - null null
+2026-06-09 14:08:35.300 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/swagger/index.css - null null
+2026-06-09 14:08:35.300 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/swagger/swagger-ui-standalone-preset.js - 304 null null 0.4345ms
+2026-06-09 14:08:35.300 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/swagger/index.js - null null
+2026-06-09 14:08:35.300 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/swagger/index.css - 304 null null 0.5209ms
+2026-06-09 14:08:35.300 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/swagger/swagger-ui.css - 304 null null 2.772ms
+2026-06-09 14:08:35.300 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/swagger/swagger-ui-bundle.js - 304 null null 0.5519ms
+2026-06-09 14:08:35.305 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/swagger/index.js - 304 null null 3.9064ms
+2026-06-09 14:08:35.602 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/swagger/v1/swagger.json - null null
+2026-06-09 14:08:35.629 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 26.7464ms
+2026-06-09 14:11:09.713 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5256/api/auth/login - null null
+2026-06-09 14:11:09.751 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:11:09.753 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5256/api/auth/login - 204 null null 41.3355ms
+2026-06-09 14:11:09.759 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5256/api/auth/login - application/json 44
+2026-06-09 14:11:09.769 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:11:09.779 +05:30 [INF] Executing endpoint 'SecureEmployeeManagementSystem.API.Controllers.AuthController.Login (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:11:09.843 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SecureEmployeeManagementSystem.Application.DTOs.Auth.LoginRequestDto) on controller SecureEmployeeManagementSystem.API.Controllers.AuthController (SecureEmployeeManagementSystem.API).
+2026-06-09 14:11:10.000 +05:30 [INF] Executing action method SecureEmployeeManagementSystem.API.Controllers.AuthController.Login (SecureEmployeeManagementSystem.API) - Validation state: "Valid"
+2026-06-09 14:11:10.966 +05:30 [INF] Executed DbCommand (141ms) [Parameters=[@username='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[IsActive], [u].[ModifiedBy], [u].[ModifiedOn], [u].[PasswordHash], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @username
+2026-06-09 14:11:11.311 +05:30 [INF] Executed action method SecureEmployeeManagementSystem.API.Controllers.AuthController.Login (SecureEmployeeManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1308.0478ms.
+2026-06-09 14:11:11.317 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-09 14:11:11.326 +05:30 [INF] Executed action SecureEmployeeManagementSystem.API.Controllers.AuthController.Login (SecureEmployeeManagementSystem.API) in 1480.0139ms
+2026-06-09 14:11:11.326 +05:30 [INF] Executed endpoint 'SecureEmployeeManagementSystem.API.Controllers.AuthController.Login (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:11:11.333 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5256/api/auth/login - 200 null application/json; charset=utf-8 1573.9959ms
+2026-06-09 14:11:11.435 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5256/api/employee/dashboard - null null
+2026-06-09 14:11:11.436 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:11:11.437 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5256/api/employee/dashboard - 204 null null 1.3181ms
+2026-06-09 14:11:11.440 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/api/employee/dashboard - null null
+2026-06-09 14:11:11.442 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:11:11.487 +05:30 [INF] Executing endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:11:11.491 +05:30 [INF] Route matched with {action = "GetDashboard", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDashboard() on controller SecureEmployeeManagementSystem.API.Controllers.EmployeeController (SecureEmployeeManagementSystem.API).
+2026-06-09 14:11:11.492 +05:30 [INF] Executing action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API) - Validation state: "Valid"
+2026-06-09 14:11:11.600 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+2026-06-09 14:11:11.611 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[IsActive] = CAST(1 AS bit)
+2026-06-09 14:11:11.620 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[IsActive] = CAST(0 AS bit)
+2026-06-09 14:11:11.621 +05:30 [INF] Executed action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 128.6721ms.
+2026-06-09 14:11:11.621 +05:30 [INF] Executing OkObjectResult, writing value of type 'SecureEmployeeManagementSystem.Application.DTOs.EmployeeDashboardDto'.
+2026-06-09 14:11:11.623 +05:30 [INF] Executed action SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API) in 131.4979ms
+2026-06-09 14:11:11.623 +05:30 [INF] Executed endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:11:11.623 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/api/employee/dashboard - 200 null application/json; charset=utf-8 183.1788ms
+2026-06-09 14:11:14.919 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/api/employee/dashboard - null null
+2026-06-09 14:11:14.930 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:11:14.940 +05:30 [INF] Executing endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:11:14.941 +05:30 [INF] Route matched with {action = "GetDashboard", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDashboard() on controller SecureEmployeeManagementSystem.API.Controllers.EmployeeController (SecureEmployeeManagementSystem.API).
+2026-06-09 14:11:14.944 +05:30 [INF] Executing action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API) - Validation state: "Valid"
+2026-06-09 14:11:15.008 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+2026-06-09 14:11:15.018 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[IsActive] = CAST(1 AS bit)
+2026-06-09 14:11:15.028 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[IsActive] = CAST(0 AS bit)
+2026-06-09 14:11:15.029 +05:30 [INF] Executed action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 84.1723ms.
+2026-06-09 14:11:15.029 +05:30 [INF] Executing OkObjectResult, writing value of type 'SecureEmployeeManagementSystem.Application.DTOs.EmployeeDashboardDto'.
+2026-06-09 14:11:15.030 +05:30 [INF] Executed action SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API) in 88.6454ms
+2026-06-09 14:11:15.030 +05:30 [INF] Executed endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:11:15.030 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/api/employee/dashboard - 200 null application/json; charset=utf-8 115.2606ms
+2026-06-09 14:18:56.801 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5256/api/auth/login - null null
+2026-06-09 14:18:56.825 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:18:56.831 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5256/api/auth/login - 204 null null 30.464ms
+2026-06-09 14:18:56.835 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5256/api/auth/login - application/json 44
+2026-06-09 14:18:56.837 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:18:56.849 +05:30 [INF] Executing endpoint 'SecureEmployeeManagementSystem.API.Controllers.AuthController.Login (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:18:56.860 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SecureEmployeeManagementSystem.Application.DTOs.Auth.LoginRequestDto) on controller SecureEmployeeManagementSystem.API.Controllers.AuthController (SecureEmployeeManagementSystem.API).
+2026-06-09 14:18:56.925 +05:30 [INF] Executing action method SecureEmployeeManagementSystem.API.Controllers.AuthController.Login (SecureEmployeeManagementSystem.API) - Validation state: "Valid"
+2026-06-09 14:18:57.129 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[@username='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedOn], [u].[IsActive], [u].[ModifiedBy], [u].[ModifiedOn], [u].[PasswordHash], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @username
+2026-06-09 14:18:57.339 +05:30 [INF] Executed action method SecureEmployeeManagementSystem.API.Controllers.AuthController.Login (SecureEmployeeManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 412.9674ms.
+2026-06-09 14:18:57.340 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-09 14:18:57.340 +05:30 [INF] Executed action SecureEmployeeManagementSystem.API.Controllers.AuthController.Login (SecureEmployeeManagementSystem.API) in 480.3659ms
+2026-06-09 14:18:57.340 +05:30 [INF] Executed endpoint 'SecureEmployeeManagementSystem.API.Controllers.AuthController.Login (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:18:57.340 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5256/api/auth/login - 200 null application/json; charset=utf-8 505.128ms
+2026-06-09 14:18:57.475 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5256/api/employee/dashboard - null null
+2026-06-09 14:18:57.476 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:18:57.477 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5256/api/employee/dashboard - 204 null null 1.8259ms
+2026-06-09 14:18:57.480 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/api/employee/dashboard - null null
+2026-06-09 14:18:57.481 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:18:57.488 +05:30 [INF] Executing endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:18:57.489 +05:30 [INF] Route matched with {action = "GetDashboard", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDashboard() on controller SecureEmployeeManagementSystem.API.Controllers.EmployeeController (SecureEmployeeManagementSystem.API).
+2026-06-09 14:18:57.494 +05:30 [INF] Executing action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API) - Validation state: "Valid"
+2026-06-09 14:18:57.505 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+2026-06-09 14:18:57.511 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[IsActive] = CAST(1 AS bit)
+2026-06-09 14:18:57.518 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[IsActive] = CAST(0 AS bit)
+2026-06-09 14:18:57.518 +05:30 [INF] Executed action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 23.7334ms.
+2026-06-09 14:18:57.518 +05:30 [INF] Executing OkObjectResult, writing value of type 'SecureEmployeeManagementSystem.Application.DTOs.EmployeeDashboardDto'.
+2026-06-09 14:18:57.519 +05:30 [INF] Executed action SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API) in 29.2822ms
+2026-06-09 14:18:57.519 +05:30 [INF] Executed endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:18:57.519 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/api/employee/dashboard - 200 null application/json; charset=utf-8 39.2768ms
+2026-06-09 14:19:02.842 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5256/api/employee - null null
+2026-06-09 14:19:02.843 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:19:02.845 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5256/api/employee - 204 null null 2.2285ms
+2026-06-09 14:19:02.847 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/api/employee - null null
+2026-06-09 14:19:02.850 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:19:02.884 +05:30 [INF] Executing endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetAll (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:19:02.906 +05:30 [INF] Route matched with {action = "GetAll", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SecureEmployeeManagementSystem.API.Controllers.EmployeeController (SecureEmployeeManagementSystem.API).
+2026-06-09 14:19:02.907 +05:30 [INF] Executing action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetAll (SecureEmployeeManagementSystem.API) - Validation state: "Valid"
+2026-06-09 14:19:02.975 +05:30 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[CreatedBy], [e].[CreatedOn], [e].[Department], [e].[Designation], [e].[Email], [e].[EmployeeCode], [e].[FirstName], [e].[IsActive], [e].[JoiningDate], [e].[LastName], [e].[ModifiedBy], [e].[ModifiedOn]
+FROM [Employees] AS [e]
+2026-06-09 14:19:02.977 +05:30 [INF] Executed action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetAll (SecureEmployeeManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 69.564ms.
+2026-06-09 14:19:02.978 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SecureEmployeeManagementSystem.Application.DTOs.EmployeeDto, SecureEmployeeManagementSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-09 14:19:03.000 +05:30 [INF] Executed action SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetAll (SecureEmployeeManagementSystem.API) in 93.5134ms
+2026-06-09 14:19:03.000 +05:30 [INF] Executed endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetAll (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:19:03.000 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/api/employee - 200 null application/json; charset=utf-8 153.853ms
+2026-06-09 14:19:04.151 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5256/api/employee/dashboard - null null
+2026-06-09 14:19:04.151 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:19:04.151 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5256/api/employee/dashboard - 204 null null 0.5527ms
+2026-06-09 14:19:08.008 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/api/employee/dashboard - null null
+2026-06-09 14:19:08.011 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:19:08.012 +05:30 [INF] Executing endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:19:08.013 +05:30 [INF] Route matched with {action = "GetDashboard", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDashboard() on controller SecureEmployeeManagementSystem.API.Controllers.EmployeeController (SecureEmployeeManagementSystem.API).
+2026-06-09 14:19:08.013 +05:30 [INF] Executing action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API) - Validation state: "Valid"
+2026-06-09 14:19:08.020 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+2026-06-09 14:19:08.028 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[IsActive] = CAST(1 AS bit)
+2026-06-09 14:19:08.034 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[IsActive] = CAST(0 AS bit)
+2026-06-09 14:19:08.037 +05:30 [INF] Executed action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 23.1486ms.
+2026-06-09 14:19:08.037 +05:30 [INF] Executing OkObjectResult, writing value of type 'SecureEmployeeManagementSystem.Application.DTOs.EmployeeDashboardDto'.
+2026-06-09 14:19:08.038 +05:30 [INF] Executed action SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API) in 25.4221ms
+2026-06-09 14:19:08.038 +05:30 [INF] Executed endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:19:08.039 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/api/employee/dashboard - 200 null application/json; charset=utf-8 30.8078ms
+2026-06-09 14:19:09.996 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5256/api/employee - null null
+2026-06-09 14:19:09.999 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:19:10.000 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5256/api/employee - 204 null null 3.4553ms
+2026-06-09 14:19:10.003 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/api/employee - null null
+2026-06-09 14:19:10.003 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:19:10.005 +05:30 [INF] Executing endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetAll (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:19:10.005 +05:30 [INF] Route matched with {action = "GetAll", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SecureEmployeeManagementSystem.API.Controllers.EmployeeController (SecureEmployeeManagementSystem.API).
+2026-06-09 14:19:10.006 +05:30 [INF] Executing action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetAll (SecureEmployeeManagementSystem.API) - Validation state: "Valid"
+2026-06-09 14:19:10.047 +05:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[CreatedBy], [e].[CreatedOn], [e].[Department], [e].[Designation], [e].[Email], [e].[EmployeeCode], [e].[FirstName], [e].[IsActive], [e].[JoiningDate], [e].[LastName], [e].[ModifiedBy], [e].[ModifiedOn]
+FROM [Employees] AS [e]
+2026-06-09 14:19:10.048 +05:30 [INF] Executed action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetAll (SecureEmployeeManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 41.9872ms.
+2026-06-09 14:19:10.048 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SecureEmployeeManagementSystem.Application.DTOs.EmployeeDto, SecureEmployeeManagementSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-09 14:19:10.048 +05:30 [INF] Executed action SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetAll (SecureEmployeeManagementSystem.API) in 43.1696ms
+2026-06-09 14:19:10.048 +05:30 [INF] Executed endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetAll (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:19:10.048 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/api/employee - 200 null application/json; charset=utf-8 45.6709ms
+2026-06-09 14:19:11.478 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5256/api/employee/dashboard - null null
+2026-06-09 14:19:11.478 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:19:11.479 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5256/api/employee/dashboard - 204 null null 0.9229ms
+2026-06-09 14:19:11.481 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/api/employee/dashboard - null null
+2026-06-09 14:19:11.481 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:19:11.482 +05:30 [INF] Executing endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:19:11.482 +05:30 [INF] Route matched with {action = "GetDashboard", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDashboard() on controller SecureEmployeeManagementSystem.API.Controllers.EmployeeController (SecureEmployeeManagementSystem.API).
+2026-06-09 14:19:11.483 +05:30 [INF] Executing action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API) - Validation state: "Valid"
+2026-06-09 14:19:11.488 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+2026-06-09 14:19:11.492 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[IsActive] = CAST(1 AS bit)
+2026-06-09 14:19:11.506 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[IsActive] = CAST(0 AS bit)
+2026-06-09 14:19:11.507 +05:30 [INF] Executed action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 24.1058ms.
+2026-06-09 14:19:11.507 +05:30 [INF] Executing OkObjectResult, writing value of type 'SecureEmployeeManagementSystem.Application.DTOs.EmployeeDashboardDto'.
+2026-06-09 14:19:11.508 +05:30 [INF] Executed action SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API) in 25.4136ms
+2026-06-09 14:19:11.508 +05:30 [INF] Executed endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:19:11.508 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/api/employee/dashboard - 200 null application/json; charset=utf-8 27.6406ms
+2026-06-09 14:19:13.846 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/api/employee - null null
+2026-06-09 14:19:13.848 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:19:13.849 +05:30 [INF] Executing endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetAll (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:19:13.849 +05:30 [INF] Route matched with {action = "GetAll", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SecureEmployeeManagementSystem.API.Controllers.EmployeeController (SecureEmployeeManagementSystem.API).
+2026-06-09 14:19:13.851 +05:30 [INF] Executing action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetAll (SecureEmployeeManagementSystem.API) - Validation state: "Valid"
+2026-06-09 14:19:13.869 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[CreatedBy], [e].[CreatedOn], [e].[Department], [e].[Designation], [e].[Email], [e].[EmployeeCode], [e].[FirstName], [e].[IsActive], [e].[JoiningDate], [e].[LastName], [e].[ModifiedBy], [e].[ModifiedOn]
+FROM [Employees] AS [e]
+2026-06-09 14:19:13.870 +05:30 [INF] Executed action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetAll (SecureEmployeeManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 18.5781ms.
+2026-06-09 14:19:13.871 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SecureEmployeeManagementSystem.Application.DTOs.EmployeeDto, SecureEmployeeManagementSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-09 14:19:13.874 +05:30 [INF] Executed action SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetAll (SecureEmployeeManagementSystem.API) in 22.8675ms
+2026-06-09 14:19:13.874 +05:30 [INF] Executed endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetAll (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:19:13.879 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/api/employee - 200 null application/json; charset=utf-8 32.8279ms
+2026-06-09 14:19:15.281 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/api/employee/dashboard - null null
+2026-06-09 14:19:15.282 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:19:15.282 +05:30 [INF] Executing endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:19:15.283 +05:30 [INF] Route matched with {action = "GetDashboard", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDashboard() on controller SecureEmployeeManagementSystem.API.Controllers.EmployeeController (SecureEmployeeManagementSystem.API).
+2026-06-09 14:19:15.284 +05:30 [INF] Executing action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API) - Validation state: "Valid"
+2026-06-09 14:19:15.290 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+2026-06-09 14:19:15.306 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[IsActive] = CAST(1 AS bit)
+2026-06-09 14:19:15.329 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[IsActive] = CAST(0 AS bit)
+2026-06-09 14:19:15.330 +05:30 [INF] Executed action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 45.5706ms.
+2026-06-09 14:19:15.330 +05:30 [INF] Executing OkObjectResult, writing value of type 'SecureEmployeeManagementSystem.Application.DTOs.EmployeeDashboardDto'.
+2026-06-09 14:19:15.331 +05:30 [INF] Executed action SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API) in 47.7185ms
+2026-06-09 14:19:15.331 +05:30 [INF] Executed endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:19:15.331 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/api/employee/dashboard - 200 null application/json; charset=utf-8 49.8756ms
+2026-06-09 14:19:15.972 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/api/employee/dashboard - null null
+2026-06-09 14:19:15.973 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:19:15.976 +05:30 [INF] Executing endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:19:15.976 +05:30 [INF] Route matched with {action = "GetDashboard", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDashboard() on controller SecureEmployeeManagementSystem.API.Controllers.EmployeeController (SecureEmployeeManagementSystem.API).
+2026-06-09 14:19:15.978 +05:30 [INF] Executing action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API) - Validation state: "Valid"
+2026-06-09 14:19:15.984 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+2026-06-09 14:19:15.988 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[IsActive] = CAST(1 AS bit)
+2026-06-09 14:19:15.996 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[IsActive] = CAST(0 AS bit)
+2026-06-09 14:19:15.996 +05:30 [INF] Executed action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 18.2672ms.
+2026-06-09 14:19:15.996 +05:30 [INF] Executing OkObjectResult, writing value of type 'SecureEmployeeManagementSystem.Application.DTOs.EmployeeDashboardDto'.
+2026-06-09 14:19:15.997 +05:30 [INF] Executed action SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API) in 20.4279ms
+2026-06-09 14:19:15.997 +05:30 [INF] Executed endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:19:15.997 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/api/employee/dashboard - 200 null application/json; charset=utf-8 24.9677ms
+2026-06-09 14:19:16.755 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:5256/api/employee/dashboard - null null
+2026-06-09 14:19:16.758 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:19:16.758 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:5256/api/employee/dashboard - 204 null null 3.6662ms
+2026-06-09 14:19:16.763 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5256/api/employee/dashboard - null null
+2026-06-09 14:19:16.764 +05:30 [INF] CORS policy execution successful.
+2026-06-09 14:19:16.764 +05:30 [INF] Executing endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:19:16.764 +05:30 [INF] Route matched with {action = "GetDashboard", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDashboard() on controller SecureEmployeeManagementSystem.API.Controllers.EmployeeController (SecureEmployeeManagementSystem.API).
+2026-06-09 14:19:16.765 +05:30 [INF] Executing action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API) - Validation state: "Valid"
+2026-06-09 14:19:16.773 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+2026-06-09 14:19:16.780 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[IsActive] = CAST(1 AS bit)
+2026-06-09 14:19:16.783 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Employees] AS [e]
+WHERE [e].[IsActive] = CAST(0 AS bit)
+2026-06-09 14:19:16.784 +05:30 [INF] Executed action method SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 18.7276ms.
+2026-06-09 14:19:16.784 +05:30 [INF] Executing OkObjectResult, writing value of type 'SecureEmployeeManagementSystem.Application.DTOs.EmployeeDashboardDto'.
+2026-06-09 14:19:16.785 +05:30 [INF] Executed action SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API) in 20.0721ms
+2026-06-09 14:19:16.785 +05:30 [INF] Executed endpoint 'SecureEmployeeManagementSystem.API.Controllers.EmployeeController.GetDashboard (SecureEmployeeManagementSystem.API)'
+2026-06-09 14:19:16.785 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5256/api/employee/dashboard - 200 null application/json; charset=utf-8 21.9552ms
+2026-06-09 14:19:33.803 +05:30 [INF] Application is shutting down...
