@@ -1,0 +1,7 @@
+﻿services:
+  secureemployeemanagementsystem:
+    image: secureemployeemanagementsystem
+    build:
+      context: .
+      dockerfile: Dockerfile
+

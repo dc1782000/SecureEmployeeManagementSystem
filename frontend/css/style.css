@@ -1,0 +1,85 @@
+body {
+    background: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
+
+.card-custom {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.table th {
+    background: #343a40;
+    color: white;
+}
+
+
+.dashboard-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+
+.circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+
+.dashboard-card:hover .circle {
+    transform: scale(1.1);
+}
+
+
+body {
+    background: #f4f6f9;
+}
+
+
+.navbar {
+    backdrop-filter: blur(10px);
+}
+
+
+.nav-link {
+    transition: 0.3s;
+    margin-right: 10px;
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+.nav-link:hover {
+    background: rgba(255,255,255,0.1);
+    transform: scale(1.05);
+}
+
+
+.nav-link.active {
+    background: #ffc107;
+    color: #000 !important;
+    font-weight: 600;
+}
+
+
+.btn-outline-light:hover {
+    background: red;
+    border-color: red;
+}
